@@ -6,7 +6,7 @@ table2.7
 
 summary(table2.7)
 
-#Normalise table 2.7 min max
+#Normalize table 2.7 min max
 min_max <- function(x){
   res <- (x - min(x))/(max(x) - min(x))
   return(res)
