@@ -24,7 +24,7 @@ closeness(g)
 eigen_centrality(g)
 
 #calculate density
-degree.distribution(g) #normalised distributions
+degree.distribution(g) #normalized distributions
 edge_density(g)
 
 #tabulate?
@@ -39,11 +39,11 @@ library(igraph)
 
 #links in data
 edges <-rbind(
-  c("A", "D"), c("A", "C"), #2 neighbours
-  c("B", "A"), c("B", "F"), #2 neighbours
-  c("C", "A"), c("C", "E"), #2 neighbours
-  c("D", "A"), c("D", "E"), #2 neighbours
-  c("E", "D"), c("E", "G"), c("E", "C") #3 neighbours
+  c("A", "D"), c("A", "C"), #2 neighbors
+  c("B", "A"), c("B", "F"), #2 neighbors
+  c("C", "A"), c("C", "E"), #2 neighbors
+  c("D", "A"), c("D", "E"), #2 neighbors
+  c("E", "D"), c("E", "G"), c("E", "C") #3 neighbors
 )
 
 #generate and plot graph
