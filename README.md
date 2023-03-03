@@ -1,3 +1,2 @@
-# {8} 
+# {8} CSIS Course Log
 
-Dataset: 
